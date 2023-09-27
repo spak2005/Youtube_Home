@@ -1,0 +1,41 @@
+.nav-list {
+ display: flex;
+ gap: 1rem;
+ border-width: 5px;
+ border-color: red;
+ border-style: solid; 
+ justify-content: flex-end;
+}
+.nav-list li {
+  border-color: blue;
+  border-width: 5px;
+  border-style: solid;
+  list-style: none;
+  flex-wrap: wrap;
+  
+}
+
+.container {
+  
+  display: flex;
+  gap: 1rem;
+}
+.sub {
+  background-color: lightgreen;
+  padding: 10px;
+  margin-bottom: 20px;
+  line-height: 1;
+  flex-basis: 100px;
+  flex-grow: 1;
+  flex-wrap: nowrap;
+
+}
+@media (min-width: 600px) {
+  .container{
+    flex-direction: column;
+  }
+}
+.p1 {
+  font-weight: bold;
+  font-size: 15px;
+}
